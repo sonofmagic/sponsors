@@ -16,11 +16,19 @@
 
 ## 微信赞助
 
+<div style="display:flex">
+<img src="assets/wechat-pay.jpg" data-canonical-src="assets/wechat-pay.jpg" width="300" alt="wechat-pay" />
+
 <img src="https://pic4.zhimg.com/80/v2-66dc5b7d9f58f897136d367acabfda47.jpg" data-canonical-src="https://pic4.zhimg.com/80/v2-66dc5b7d9f58f897136d367acabfda47.jpg" width="300" alt="wechat-pay" />
+</div>
 
 ## 支付宝赞助
 
+<div style="display:flex">
+<img src="assets/ali-pay.jpg" data-canonical-src="assets/ali-pay.jpg" width="300" alt="ali-pay" />
+
 <img src="https://pic4.zhimg.com/80/v2-5ee6fa7e26b1dcdd75bd4db8b324ddca.jpg" data-canonical-src="https://pic4.zhimg.com/80/v2-5ee6fa7e26b1dcdd75bd4db8b324ddca.jpg" width="300" alt="ali-pay" />
+</div>
 
 ## 赞助完成后(重要!)
 
