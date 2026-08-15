@@ -1,37 +1,55 @@
-# sponsors
+# 支持 icebreaker 的开源工作
 
-`icebreaker's sponsors`，赞助我，让我生产更多优质的开源项目和技术文章。
+[English](./README.en.md) | 简体中文
 
-- [sponsors](#sponsors)
-  - [您将获得什么？](#您将获得什么)
-  - [微信赞助](#微信赞助)
-  - [支付宝赞助](#支付宝赞助)
-  - [赞助完成后(重要!)](#赞助完成后重要)
+感谢你考虑支持 [icebreaker（@sonofmagic）](https://github.com/sonofmagic) 的开源项目与技术内容。你的赞助将用于持续维护开源项目、修复问题、完善文档，以及分享更多工程实践。
 
-## 您将获得什么？
+## 赞助者权益
 
-1. 我的 github 中有影响的 repo ，展示你的 github 头像。(可选)
-2. 我的 icebreaker.top 和其他网站/项目中，展示你的 github 信息。(可选)
-3. 金额较大者，可以提供技术咨询和方案设计的服务
+在你愿意公开展示的前提下，可以获得：
 
-## 微信赞助
+- 在我维护的部分有影响力的 GitHub 项目中展示你的 GitHub 头像或名称；
+- 在 [icebreaker.top](https://icebreaker.top) 及其他相关网站或项目中展示你的 GitHub 信息；
+- 对于较大金额或长期赞助，可另行沟通技术咨询与方案设计。
 
-<div style="display:flex">
-<img src="assets/wechat-pay.jpg" data-canonical-src="assets/wechat-pay.jpg" width="300" alt="wechat-pay" />
+> 头像或名称展示是可选的。技术咨询属于独立服务，请在赞助前先确认范围、时间与交付方式。
 
-<img src="https://pic4.zhimg.com/80/v2-66dc5b7d9f58f897136d367acabfda47.jpg" data-canonical-src="https://pic4.zhimg.com/80/v2-66dc5b7d9f58f897136d367acabfda47.jpg" width="300" alt="wechat-pay" />
-</div>
+## 赞助方式
 
-## 支付宝赞助
+| 微信支付 | 支付宝 |
+| :---: | :---: |
+| <img src="./assets/wechat-pay.jpg" width="300" alt="微信赞助二维码" /> | <img src="./assets/ali-pay.jpg" width="300" alt="支付宝赞助二维码" /> |
 
-<div style="display:flex">
-<img src="assets/ali-pay.jpg" data-canonical-src="assets/ali-pay.jpg" width="300" alt="ali-pay" />
+## 赞助完成后
 
-<img src="https://pic4.zhimg.com/80/v2-5ee6fa7e26b1dcdd75bd4db8b324ddca.jpg" data-canonical-src="https://pic4.zhimg.com/80/v2-5ee6fa7e26b1dcdd75bd4db8b324ddca.jpg" width="300" alt="ali-pay" />
-</div>
+请提交一条 [赞助确认 Issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship.yml)，以便核对赞助并记录你的展示偏好。
 
-## 赞助完成后(重要!)
+建议提供以下信息：
 
-请在这个仓库里面提一个 `issue`, 便于我进行金额的校对与收集信息。
+- GitHub 用户名；
+- 支付方式；
+- 赞助日期和大致时间；
+- 希望公开展示的名称、头像或链接；
+- 是否希望匿名。
 
-[仓库地址(点击复制/跳转)](https://github.com/sonofmagic/sponsors)
+### 隐私提醒
+
+Issue 是公开的。请勿提交完整交易单号、付款截图、手机号、邮箱或其他敏感信息。如需进一步核对，维护者会与你另行沟通。
+
+## 常见问题
+
+### 可以匿名赞助吗？
+
+可以。在赞助确认 Issue 中选择匿名即可；你也可以不提交 Issue，但这样可能无法完成核对或展示。
+
+### 可以只展示名称，不展示头像或链接吗？
+
+可以。请在赞助确认 Issue 中写明你的展示偏好。
+
+### 商业合作或技术咨询如何联系？
+
+请先通过 [GitHub Issue](https://github.com/sonofmagic/sponsors/issues/new) 说明需求，不要直接以赞助代替服务费用。双方确认范围后再继续。
+
+## 致谢
+
+每一份支持都会帮助我投入更多时间维护开源项目。感谢你的信任与支持。
