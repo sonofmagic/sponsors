@@ -2,71 +2,85 @@
 
 English | [简体中文](./README.md)
 
-Thank you for considering supporting [icebreaker (@sonofmagic)](https://github.com/sonofmagic). Your sponsorship helps fund ongoing open-source maintenance, bug fixes, documentation, and practical engineering articles.
+Thank you for supporting [icebreaker (@sonofmagic)](https://github.com/sonofmagic). Your contribution funds project maintenance, bug fixes, documentation, and practical engineering content.
 
-## Sponsor recognition
+There are two independent ways to participate: permanent recognition for individual sponsors and fixed-term documentation sidebar advertising for businesses.
 
-If you choose to be publicly recognized, you may receive:
+## Individual sponsorship
 
-- Your GitHub avatar or name displayed in selected high-impact repositories I maintain;
-- Your GitHub profile featured on [icebreaker.top](https://icebreaker.top) and other related sites or projects;
-- An opportunity to discuss technical consulting or solution design for substantial or recurring sponsorships.
+### Sponsorship tiers
 
-> Public recognition is optional. Consulting is a separate service, so please agree on its scope, schedule, and deliverables before sponsoring.
+| Tier | Amount | Permanent benefit |
+| --- | ---: | --- |
+| Standard support | CNY 20 | A public thank-you record |
+| Bronze sponsorship | CNY 200 | GitHub avatar, username, and profile link |
+| Silver sponsorship | CNY 1,000 | Bronze benefits plus placement in the featured sponsor list |
+| Custom amount | Enter any amount | The highest individual tier covered by cumulative verified payments |
 
-## Payment methods
+Individual recognition is public by default and does not expire. You can explicitly opt out in the verification form. Custom contributions are matched against cumulative verified payments from the same GitHub account: CNY 20, 200, and 1,000 unlock Standard, Bronze, and Silver respectively. Totals below CNY 20 are still appreciated but do not enter a public tier.
+
+### Payment methods
 
 | WeChat Pay | Alipay |
 | :---: | :---: |
 | <img src="./assets/wechat-pay.jpg" width="300" alt="WeChat Pay sponsorship QR code" /> | <img src="./assets/ali-pay.jpg" width="300" alt="Alipay sponsorship QR code" /> |
 
-## Sponsorship tiers
+After payment, open an [English individual sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=personal-sponsorship-en.yml). Only the sponsorship tier is required. The issue author is used as the GitHub identity by default, and the issue creation time is used when payment time is omitted.
 
-The verification form offers these fixed packages with progressively stronger recognition benefits:
+## Business sponsorship and advertising
 
-| Tier | Amount | Recognition benefit |
+The following introductory prices apply during the initial trial. Ads appear only in the right sidebar of desktop documentation pages; mobile, homepage, and other-page impressions are not included.
+
+| Package | Introductory price | Advertising benefit |
 | --- | ---: | --- |
-| Standard support | CNY 20 | Thank-you only |
-| Bronze sponsorship | CNY 200 | GitHub avatar and profile link available |
-| Silver sponsorship | CNY 1,000 | Includes Bronze benefits plus sponsor-list placement |
-| Gold sponsorship | CNY 4,000 | Includes Silver benefits plus homepage or featured placement and public acknowledgment |
-| Special sponsorship | CNY 10,000 | Includes Gold benefits plus custom recognition and dedicated collaboration discussion |
-| Custom amount | Enter any amount | Totals under CNY 20 receive thank-you only; otherwise matches the highest tier not exceeding cumulative payments |
+| Single-site monthly ad | CNY 2,000 | Exclusive desktop documentation sidebar placement on either `weapp-tailwindcss` or `weapp-vite` for 30 calendar days |
+| Two-site monthly ad | CNY 3,000 | Exclusive desktop documentation sidebar placement on both sites for 30 calendar days |
+| Two-site quarterly partner | CNY 8,000 | Exclusive desktop documentation sidebar placement on both sites for 90 calendar days |
+| Custom partnership | Contact us | A custom schedule, placement, or project collaboration |
 
-The sponsorship tier determines the recognition benefit you may request. The form defaults to using the selected tier's benefits; select no public recognition to opt out. Homepage placement, featured placement, public acknowledgment, and Special sponsorship collaboration require confirmation of the exact scope.
+Every business package includes permanent Silver recognition. After the ad period ends, the company name, logo, and target link remain in the featured sponsor list.
 
-GitHub Issue Forms cannot dynamically hide or rewrite fields based on a dropdown selection. The tier options therefore state their benefits directly, and the selected tier is used during verification.
+### Application and publishing process
 
-## After sponsoring
+1. Open an [English business advertising application](https://github.com/sonofmagic/sponsors/issues/new?template=business-sponsorship-en.yml) with the package, brand name, target link, ad copy, alternative text, and logo asset.
+2. The maintainer reviews the content, assets, and available schedule, then confirms the final launch date.
+3. Pay only after both parties confirm the campaign. Do not use the individual sponsorship QR codes to prepay advertising fees.
+4. The 30- or 90-calendar-day period begins when the approved assets are deployed and live.
 
-Please open an [English sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship-en.yml) so I can verify the payment and record your recognition preferences. You can choose the Chinese sponsorship verification form instead when creating a new issue.
+Each site carries at most one paid campaign at a time. If site outages exceed 24 cumulative hours during a campaign, the affected time will be added to the schedule. Packages do not guarantee clicks, conversions, homepage impressions, or mobile impressions.
 
-Every field except sponsorship tier is optional. If payment time is omitted, the issue creation time will be used as a reference. Recognition defaults to the selected tier's benefits. Helpful details include:
+### Asset and review policy
 
-- Your GitHub username (optional; the issue author is usually identifiable);
-- Payment method;
-- Sponsorship tier (required; enter an exact amount when selecting Custom amount);
-- Approximate payment date and time;
-- The name, avatar, or link you want displayed;
-- Whether you prefer to remain anonymous.
+- Logos may be SVG, transparent PNG, or WebP, with a maximum size of 1 MB per file;
+- A brand name, target URL, alternative text, and short advertising message are required;
+- Chinese copy should preferably stay within 30 Chinese characters, and English copy within 60 characters;
+- Ads must be legal and relevant to developers, cloud services, engineering tools, or the open-source ecosystem;
+- Gambling, illicit industries, infringement, misleading claims, and competitor impersonation are rejected;
+- The maintainer retains final approval over content, assets, links, scheduling, and presentation.
 
-### Privacy notice
+Reliable public traffic data for the documentation sites is not yet available, so these are introductory trial prices. Pricing will be reviewed after 90 days or 3 paid campaigns using site traffic, click data, sell-through rate, and sponsor feedback. Later price changes will not affect confirmed orders.
 
-Issues are public. Do not post a complete transaction ID, payment receipt, phone number, email address, or other sensitive information. If additional verification is needed, the maintainer will arrange a private follow-up.
+## Privacy and verification
+
+GitHub issues are public. Do not post a complete transaction ID, payment receipt, phone number, email address, or other sensitive information. The maintainer will arrange a private follow-up if an individual payment needs further verification. Business advertising must be paid only after the schedule and assets have been approved.
 
 ## FAQ
 
-### Can I sponsor anonymously?
+### Can an individual sponsor remain anonymous?
 
-Yes. Select no public recognition in the recognition preference. You may also skip the issue entirely, although the payment may then be difficult to verify.
+Yes. Select no public recognition in the individual verification form. You may also skip the issue, although the payment may then be difficult to verify or count toward a cumulative tier.
 
-### Can I display only my name, without an avatar or link?
+### Does individual sponsor recognition expire?
 
-Yes. Describe exactly how you want to be recognized in the verification issue.
+No. Verified individual benefits remain permanently unless the sponsor asks for removal or the displayed content violates project policy.
 
-### How should I request commercial work or technical consulting?
+### Why should a business not pay immediately?
 
-Please open a [GitHub issue](https://github.com/sonofmagic/sponsors/issues/new) describing your request first. A sponsorship is not a substitute for a service fee; we should agree on scope before proceeding.
+Advertising requires content review, usable assets, and a conflict-free schedule. Approval before payment avoids refund disputes when a requested slot or submitted asset cannot be used.
+
+### What remains after an ad expires?
+
+The sidebar ad is removed on schedule. The company name, logo, and link remain permanently in the sponsor list under Silver recognition.
 
 ## Thank you
 

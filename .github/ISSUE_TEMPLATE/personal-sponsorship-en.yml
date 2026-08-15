@@ -1,0 +1,72 @@
+name: Individual sponsorship verification (English)
+description: Verify an individual sponsorship tier and public recognition preference
+title: "[Individual sponsor] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your support! Issues are public. Do not include a complete transaction ID, payment receipt, phone number, email address, or other sensitive information.
+
+        Only the sponsorship tier is required. The issue author is used as the GitHub identity by default. The issue creation time is used when payment time is omitted. Recognition is enabled by default; explicitly opt out if you prefer privacy.
+
+  - type: dropdown
+    id: sponsorship_tier
+    attributes:
+      label: Sponsorship tier
+      description: Custom contributions use cumulative verified payments from the same GitHub account to determine the highest individual tier.
+      options:
+        - "Standard support: CNY 20, permanent public thank-you record"
+        - "Bronze sponsorship: CNY 200, permanent GitHub avatar, username, and profile link"
+        - "Silver sponsorship: CNY 1,000, permanent Bronze benefits plus featured sponsor-list placement"
+        - "Custom amount: enter any amount and receive the highest individual tier covered by cumulative verified payments"
+    validations:
+      required: true
+
+  - type: input
+    id: amount
+    attributes:
+      label: Exact amount (optional)
+      description: Enter an amount for Custom amount; fixed tiers can leave this blank.
+      placeholder: "CNY 300"
+
+  - type: dropdown
+    id: payment_method
+    attributes:
+      label: Payment method (optional)
+      options:
+        - WeChat Pay
+        - Alipay
+
+  - type: input
+    id: payment_time
+    attributes:
+      label: Approximate payment time (optional)
+      description: Leave blank to use the issue creation time. Include your time zone if it is not UTC+8.
+      placeholder: "YYYY-MM-DD HH:mm (UTC+8)"
+
+  - type: dropdown
+    id: recognition
+    attributes:
+      label: Recognition preference (optional)
+      description: Permanent recognition for the selected tier is public by default. Select no public recognition to opt out.
+      options:
+        - Use the public recognition benefits for the selected tier
+        - No public recognition
+      default: 0
+
+  - type: input
+    id: display_name
+    attributes:
+      label: Display name (optional)
+      description: Leave blank to use the issue author's GitHub username.
+
+  - type: input
+    id: profile_url
+    attributes:
+      label: Profile or website URL (optional)
+      placeholder: "https://github.com/username"
+
+  - type: textarea
+    id: message
+    attributes:
+      label: Message (optional)

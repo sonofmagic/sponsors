@@ -1,0 +1,88 @@
+name: 企业广告申请（中文）
+description: 申请 weapp-tailwindcss 或 weapp-vite 文档侧栏广告
+title: "[企业广告] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先提交素材和期望排期。维护者审核并确认可用档期后再付款，请勿直接通过个人赞助二维码预付广告费用。
+
+        广告仅展示在桌面文档页右侧栏。每站同时最多一个付费广告，不承诺点击量、转化率、首页曝光或移动端曝光。
+
+  - type: dropdown
+    id: advertising_package
+    attributes:
+      label: 广告套餐
+      options:
+        - 单站月度广告：人民币 2,000 元，weapp-tailwindcss 独占展示 30 个自然日
+        - 单站月度广告：人民币 2,000 元，weapp-vite 独占展示 30 个自然日
+        - 双站月度广告：人民币 3,000 元，两站独占展示 30 个自然日
+        - 双站季度伙伴：人民币 8,000 元，两站独占展示 90 个自然日
+        - 定制合作：单独沟通排期、展示方式或专项合作
+    validations:
+      required: true
+
+  - type: input
+    id: brand_name
+    attributes:
+      label: 品牌或公司名称
+      placeholder: "示例科技"
+    validations:
+      required: true
+
+  - type: input
+    id: target_url
+    attributes:
+      label: 目标链接
+      description: 请填写以 https:// 开头的最终落地页。
+      placeholder: "https://example.com/product"
+    validations:
+      required: true
+
+  - type: textarea
+    id: advertising_copy
+    attributes:
+      label: 广告文案
+      description: 中文建议不超过 30 个字，英文建议不超过 60 个字符。
+      placeholder: "面向开发者的简短产品介绍"
+    validations:
+      required: true
+
+  - type: input
+    id: alternative_text
+    attributes:
+      label: Logo 替代文本
+      description: 用于图片无法显示和辅助技术读取，请简洁描述品牌。
+      placeholder: "示例科技 Logo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logo_asset
+    attributes:
+      label: Logo 素材
+      description: 请拖入 SVG、透明 PNG 或 WebP 文件，单个文件不超过 1 MB。也可提供可公开访问的素材链接。
+    validations:
+      required: true
+
+  - type: input
+    id: preferred_start_date
+    attributes:
+      label: 期望上线日期（可选）
+      description: 最终日期以素材审核和排期确认为准。
+      placeholder: "YYYY-MM-DD"
+
+  - type: checkboxes
+    id: advertising_policy
+    attributes:
+      label: 广告政策确认
+      options:
+        - label: 我确认内容合法且与开发者、云服务、工程工具或开源生态相关，不含博彩、灰色产业、侵权、误导或竞品仿冒；我理解投放从审核并上线之日起计算，故障累计超过 24 小时才顺延，且维护者保留最终审核权。
+          required: true
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充说明（可选）
