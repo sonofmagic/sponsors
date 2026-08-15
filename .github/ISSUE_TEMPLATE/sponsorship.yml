@@ -13,6 +13,15 @@ body:
 
         以下字段均为可选。未填写支付时间时，将以 Issue 创建时间作为参考；未选择展示偏好时，将默认不公开展示。
 
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language (optional) / 语言（可选）
+      description: Choose the language for follow-up communication. / 请选择后续沟通使用的语言。
+      options:
+        - 中文 / Chinese
+        - English / 英文
+
   - type: input
     id: github_username
     attributes:
