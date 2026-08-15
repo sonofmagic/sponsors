@@ -26,13 +26,14 @@ The verification form uses these ranges to make reconciliation easier:
 
 | Tier | Amount | Recognition benefit |
 | --- | ---: | --- |
-| Starter support | CNY 1-49 | Thank-you only |
-| Community support | CNY 50-199 | Name display available |
-| Project support | CNY 200-999 | Avatar, name, and profile link available |
-| Long-term partnership | CNY 1,000 or more | Featured display and consulting discussion available |
-| Prefer not to disclose amount | Amount not disclosed | Treated as starter support |
+| Standard support | CNY 1-49 | Thank-you only |
+| Bronze sponsorship | CNY 50-199 | Name display available |
+| Silver sponsorship | CNY 200-999 | Avatar, name, and profile link available |
+| Gold sponsorship | CNY 1,000-4,999 | Featured display and consulting discussion available |
+| Special sponsorship | CNY 5,000 or more | Custom recognition and dedicated collaboration can be discussed |
+| Prefer not to disclose amount | Amount not disclosed | Treated as standard support |
 
-The sponsorship tier determines the recognition benefit you may request. Public recognition still requires an explicit choice, and declining recognition does not affect payment verification. Consulting scope must be agreed separately.
+The sponsorship tier determines the recognition benefit you may request. Public recognition still requires an explicit choice, and declining recognition does not affect payment verification. Consulting or dedicated collaboration for Gold and Special sponsorships must be agreed separately.
 
 ## After sponsoring
 
