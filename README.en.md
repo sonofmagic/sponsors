@@ -36,7 +36,7 @@ These tiers are for payment reconciliation and do not automatically grant differ
 
 ## After sponsoring
 
-Please open a [sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship.yml) so I can verify the payment and record your recognition preferences.
+Please open an [English sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship-en.yml) so I can verify the payment and record your recognition preferences. You can choose the Chinese sponsorship verification form instead when creating a new issue.
 
 Every field in the form is optional. If payment time is omitted, the issue creation time will be used as a reference. If recognition preference is omitted, no public recognition will be added. Helpful details include:
 

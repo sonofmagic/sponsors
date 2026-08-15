@@ -36,7 +36,7 @@
 
 ## 赞助完成后
 
-请提交一条 [赞助确认 Issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship.yml)，以便核对赞助并记录你的展示偏好。
+请提交一条 [中文赞助确认 Issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship-zh.yml)，以便核对赞助并记录你的展示偏好。新建 Issue 时也可以选择 English sponsorship verification，进入全英文表单。
 
 表单中的所有字段都是可选的。未填写支付时间时，以 Issue 创建时间作为参考；未选择展示偏好时，默认不公开展示。愿意提供更多信息时，可以填写：
 

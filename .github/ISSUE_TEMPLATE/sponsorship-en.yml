@@ -1,0 +1,76 @@
+name: Sponsorship verification
+description: Verify a sponsorship and choose how you would like to be recognized
+title: "[Sponsor] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your support! Issues are public. Do not include a complete transaction ID, payment receipt, phone number, email address, or other sensitive information.
+
+        All fields below are optional. If payment time is omitted, the issue creation time will be used as a reference. If recognition preference is omitted, no public recognition will be added.
+
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub username (optional)
+      placeholder: "@username"
+
+  - type: dropdown
+    id: sponsorship_tier
+    attributes:
+      label: Sponsorship tier (optional)
+      description: Select the range that matches your sponsorship. The tier is for reconciliation and does not automatically change recognition rights.
+      options:
+        - CNY 1-49
+        - CNY 50-199
+        - CNY 200-999
+        - CNY 1,000 or more
+        - Prefer not to say
+
+  - type: dropdown
+    id: payment_method
+    attributes:
+      label: Payment method (optional)
+      options:
+        - WeChat Pay
+        - Alipay
+
+  - type: input
+    id: payment_time
+    attributes:
+      label: Approximate payment time (optional)
+      description: Leave blank to use the issue creation time. Include your time zone if it is not UTC+8.
+      placeholder: "YYYY-MM-DD HH:mm (UTC+8)"
+
+  - type: input
+    id: amount
+    attributes:
+      label: Exact amount (optional)
+      placeholder: "CNY 100"
+
+  - type: dropdown
+    id: recognition
+    attributes:
+      label: Recognition preference (optional)
+      description: Leave blank for no public recognition.
+      options:
+        - GitHub avatar, name, and profile link
+        - Name only
+        - Anonymous
+
+  - type: input
+    id: display_name
+    attributes:
+      label: Display name (optional)
+      description: Leave blank to use your GitHub username when provided.
+
+  - type: input
+    id: profile_url
+    attributes:
+      label: Profile or website URL (optional)
+      placeholder: "https://github.com/username"
+
+  - type: textarea
+    id: message
+    attributes:
+      label: Message (optional)
