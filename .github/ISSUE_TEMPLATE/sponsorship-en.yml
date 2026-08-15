@@ -7,7 +7,7 @@ body:
       value: |
         Thank you for your support! Issues are public. Do not include a complete transaction ID, payment receipt, phone number, email address, or other sensitive information.
 
-        All fields below are optional. If payment time is omitted, the issue creation time will be used as a reference. If recognition preference is omitted, no public recognition will be added.
+        All fields except sponsorship tier are optional. If payment time is omitted, the issue creation time will be used as a reference. If recognition preference is omitted, no public recognition will be added.
 
   - type: input
     id: github_username
@@ -18,14 +18,16 @@ body:
   - type: dropdown
     id: sponsorship_tier
     attributes:
-      label: Sponsorship tier (optional)
-      description: Select the range that matches your sponsorship. The tier is for reconciliation and does not automatically change recognition rights.
+      label: Sponsorship tier (required)
+      description: Select the amount and recognition level that matches your sponsorship. Public recognition still requires an explicit choice; select no public recognition if preferred.
       options:
-        - CNY 1-49
-        - CNY 50-199
-        - CNY 200-999
-        - CNY 1,000 or more
-        - Prefer not to say
+        - Starter support: CNY 1-49, thank-you only
+        - Community support: CNY 50-199, name display available
+        - Project support: CNY 200-999, avatar, name, and profile link available
+        - Long-term partnership: CNY 1,000 or more, featured display and consulting discussion available
+        - Prefer not to disclose amount: recognition defaults to starter support
+    validations:
+      required: true
 
   - type: dropdown
     id: payment_method
@@ -52,11 +54,10 @@ body:
     id: recognition
     attributes:
       label: Recognition preference (optional)
-      description: Leave blank for no public recognition.
+      description: Choose whether to use the recognition level from your selected tier. Leave blank for no public recognition.
       options:
-        - GitHub avatar, name, and profile link
-        - Name only
-        - Anonymous
+        - Use the recognition benefits from the selected tier
+        - No public recognition
 
   - type: input
     id: display_name

@@ -7,7 +7,7 @@ body:
       value: |
         感谢你的支持！Issue 是公开的，请勿填写完整交易单号、付款截图、手机号、邮箱或其他敏感信息。
 
-        以下字段均为可选。未填写支付时间时，将以 Issue 创建时间作为参考；未选择展示偏好时，将默认不公开展示。
+        除赞助档位外，以下字段均为可选。未填写支付时间时，将以 Issue 创建时间作为参考；未选择展示偏好时，将默认不公开展示。
 
   - type: input
     id: github_username
@@ -18,14 +18,16 @@ body:
   - type: dropdown
     id: sponsorship_tier
     attributes:
-      label: 赞助档位（可选）
-      description: 请选择对应的赞助金额区间。档位仅用于核对，不自动改变展示权益。
+      label: 赞助档位（必填）
+      description: 请选择对应的金额和展示权益。公开展示仍需主动选择；如不希望公开，请在展示偏好中选择不公开。
       options:
-        - 人民币 1-49 元
-        - 人民币 50-199 元
-        - 人民币 200-999 元
-        - 人民币 1,000 元及以上
-        - 不便透露
+        - 基础支持：人民币 1-49 元，仅致谢
+        - 社区支持：人民币 50-199 元，可展示名称
+        - 项目支持：人民币 200-999 元，可展示头像、名称和主页链接
+        - 长期合作：人民币 1,000 元及以上，可获得更突出展示并另行沟通咨询
+        - 不便透露金额：展示权益按基础支持处理
+    validations:
+      required: true
 
   - type: dropdown
     id: payment_method
@@ -52,11 +54,10 @@ body:
     id: recognition
     attributes:
       label: 展示偏好（可选）
-      description: 留空则默认不公开展示。
+      description: 选择是否使用所选档位的展示权益；留空则默认不公开展示。
       options:
-        - GitHub 头像、名称和主页链接
-        - 仅展示名称
-        - 匿名
+        - 使用所选档位的展示权益
+        - 不公开展示
 
   - type: input
     id: display_name

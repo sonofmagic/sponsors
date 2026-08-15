@@ -24,15 +24,15 @@ If you choose to be publicly recognized, you may receive:
 
 The verification form uses these ranges to make reconciliation easier:
 
-| Tier | Amount |
-| --- | ---: |
-| Starter support | CNY 1-49 |
-| Community support | CNY 50-199 |
-| Project support | CNY 200-999 |
-| Long-term partnership | CNY 1,000 or more |
-| Prefer not to say | Amount not disclosed |
+| Tier | Amount | Recognition benefit |
+| --- | ---: | --- |
+| Starter support | CNY 1-49 | Thank-you only |
+| Community support | CNY 50-199 | Name display available |
+| Project support | CNY 200-999 | Avatar, name, and profile link available |
+| Long-term partnership | CNY 1,000 or more | Featured display and consulting discussion available |
+| Prefer not to disclose amount | Amount not disclosed | Treated as starter support |
 
-These tiers are for payment reconciliation and do not automatically grant different benefits. Avatar, name, and link display are always opt-in; consulting scope must be agreed separately.
+The sponsorship tier determines the recognition benefit you may request. Public recognition still requires an explicit choice, and declining recognition does not affect payment verification. Consulting scope must be agreed separately.
 
 ## After sponsoring
 
@@ -42,7 +42,7 @@ Every field in the form is optional. If payment time is omitted, the issue creat
 
 - Your GitHub username (optional; the issue author is usually identifiable);
 - Payment method;
-- Sponsorship tier (exact amount is optional);
+- Sponsorship tier (required; exact amount is optional);
 - Approximate payment date and time;
 - The name, avatar, or link you want displayed;
 - Whether you prefer to remain anonymous.
@@ -55,7 +55,7 @@ Issues are public. Do not post a complete transaction ID, payment receipt, phone
 
 ### Can I sponsor anonymously?
 
-Yes. Leave the recognition preference blank or select anonymous. You may also skip the issue entirely, although the payment may then be difficult to verify.
+Yes. Leave the recognition preference blank or select no public recognition. You may also skip the issue entirely, although the payment may then be difficult to verify.
 
 ### Can I display only my name, without an avatar or link?
 
