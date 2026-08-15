@@ -38,7 +38,7 @@ These tiers are for payment reconciliation and do not automatically grant differ
 
 Please open a [sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship.yml) so I can verify the payment and record your recognition preferences.
 
-Helpful details include:
+Every field in the form is optional. If payment time is omitted, the issue creation time will be used as a reference. If recognition preference is omitted, no public recognition will be added. Helpful details include:
 
 - Your GitHub username (optional; the issue author is usually identifiable);
 - Payment method;
@@ -55,7 +55,7 @@ Issues are public. Do not post a complete transaction ID, payment receipt, phone
 
 ### Can I sponsor anonymously?
 
-Yes. Select the anonymous option in the verification issue. You may also skip the issue entirely, although the payment may then be difficult to verify or recognize.
+Yes. Leave the recognition preference blank or select anonymous. You may also skip the issue entirely, although the payment may then be difficult to verify.
 
 ### Can I display only my name, without an avatar or link?
 

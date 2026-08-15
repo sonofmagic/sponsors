@@ -7,7 +7,11 @@ body:
       value: |
         Thank you for your support! Issues are public. Do not include a complete transaction ID, payment receipt, phone number, email address, or other sensitive information.
 
+        All fields below are optional. If payment time is omitted, the issue creation time will be used as a reference. If recognition preference is omitted, no public recognition will be added.
+
         感谢你的支持！Issue 是公开的，请勿填写完整交易单号、付款截图、手机号、邮箱或其他敏感信息。
+
+        以下字段均为可选。未填写支付时间时，将以 Issue 创建时间作为参考；未选择展示偏好时，将默认不公开展示。
 
   - type: input
     id: github_username
@@ -18,7 +22,7 @@ body:
   - type: dropdown
     id: sponsorship_tier
     attributes:
-      label: Sponsorship tier / 赞助档位
+      label: Sponsorship tier (optional) / 赞助档位（可选）
       description: Select the range that matches your sponsorship. The tier is for reconciliation and does not automatically change recognition rights. / 请选择对应的赞助金额区间。档位仅用于核对，不自动改变展示权益。
       options:
         - CNY 1-49 / 人民币 1-49 元
@@ -26,27 +30,21 @@ body:
         - CNY 200-999 / 人民币 200-999 元
         - CNY 1,000 or more / 人民币 1,000 元及以上
         - Prefer not to say / 不便透露
-    validations:
-      required: true
 
   - type: dropdown
     id: payment_method
     attributes:
-      label: Payment method / 支付方式
+      label: Payment method (optional) / 支付方式（可选）
       options:
         - WeChat Pay / 微信支付
         - Alipay / 支付宝
-    validations:
-      required: true
 
   - type: input
     id: payment_time
     attributes:
-      label: Approximate payment time / 大致支付时间
-      description: Include your time zone if it is not UTC+8 / 如不在东八区，请注明时区
-      placeholder: "2026-08-15 14:30 (UTC+8)"
-    validations:
-      required: true
+      label: Approximate payment time (optional) / 大致支付时间（可选）
+      description: Leave blank to use the issue creation time. Include your time zone if it is not UTC+8. / 留空则参考 Issue 创建时间；如不在东八区，请注明时区。
+      placeholder: "YYYY-MM-DD HH:mm (UTC+8)"
 
   - type: input
     id: amount
@@ -57,14 +55,12 @@ body:
   - type: dropdown
     id: recognition
     attributes:
-      label: Recognition preference / 展示偏好
-      description: Choose what may be shown in related repositories and websites / 选择可在相关项目和网站中公开展示的内容
+      label: Recognition preference (optional) / 展示偏好（可选）
+      description: Leave blank for no public recognition. / 留空则默认不公开展示。
       options:
         - GitHub avatar, name, and profile link / GitHub 头像、名称和主页链接
         - Name only / 仅展示名称
         - Anonymous / 匿名
-    validations:
-      required: true
 
   - type: input
     id: display_name
@@ -82,11 +78,3 @@ body:
     id: message
     attributes:
       label: Message (optional) / 留言（可选）
-
-  - type: checkboxes
-    id: privacy
-    attributes:
-      label: Privacy confirmation / 隐私确认
-      options:
-        - label: I have not included sensitive payment or personal information / 我没有填写敏感的支付或个人信息
-          required: true
