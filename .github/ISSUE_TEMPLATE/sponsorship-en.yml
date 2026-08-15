@@ -7,7 +7,7 @@ body:
       value: |
         Thank you for your support! Issues are public. Do not include a complete transaction ID, payment receipt, phone number, email address, or other sensitive information.
 
-        All fields except sponsorship tier are optional. If payment time is omitted, the issue creation time will be used as a reference. If recognition preference is omitted, no public recognition will be added.
+        All fields except sponsorship tier are optional. If payment time is omitted, the issue creation time will be used as a reference. Recognition defaults to the selected tier's benefits; choose no public recognition to opt out.
 
   - type: input
     id: github_username
@@ -19,14 +19,14 @@ body:
     id: sponsorship_tier
     attributes:
       label: Sponsorship tier (required)
-      description: Select the amount and recognition level that matches your sponsorship. Public recognition still requires an explicit choice; select no public recognition if preferred.
+      description: Select a fixed sponsorship package and its recognition benefits. Recognition is enabled by default; select no public recognition to opt out.
       options:
-        - Standard support: CNY 1-99, thank-you only
-        - Bronze sponsorship: CNY 100-499, GitHub avatar and profile link available
-        - Silver sponsorship: CNY 500-1,999, includes Bronze benefits plus sponsor-list placement
-        - Gold sponsorship: CNY 2,000-4,999, includes Silver benefits plus homepage or featured placement and public acknowledgment
-        - Special sponsorship: CNY 5,000 or more, includes Gold benefits plus custom recognition and dedicated collaboration discussion
-        - Prefer not to disclose amount: recognition defaults to standard support
+        - Standard support: CNY 20, thank-you only
+        - Bronze sponsorship: CNY 200, GitHub avatar and profile link available
+        - Silver sponsorship: CNY 1,000, includes Bronze benefits plus sponsor-list placement
+        - Gold sponsorship: CNY 4,000, includes Silver benefits plus homepage or featured placement and public acknowledgment
+        - Special sponsorship: CNY 10,000, includes Gold benefits plus custom recognition and dedicated collaboration discussion
+        - Custom amount: totals under CNY 20 receive thank-you only; otherwise matches the highest tier not exceeding cumulative payments
     validations:
       required: true
 
@@ -49,16 +49,18 @@ body:
     id: amount
     attributes:
       label: Exact amount (optional)
-      placeholder: "CNY 100"
+      description: Enter an amount when selecting Custom amount; fixed packages can leave this blank.
+      placeholder: "CNY 300"
 
   - type: dropdown
     id: recognition
     attributes:
       label: Recognition preference (optional)
-      description: Choose whether to use the recognition level from your selected tier. Leave blank for no public recognition.
+      description: Recognition defaults to the selected tier's benefits. Select no public recognition to opt out.
       options:
         - Use the recognition benefits from the selected tier
         - No public recognition
+      default: 0
 
   - type: input
     id: display_name

@@ -22,18 +22,18 @@ If you choose to be publicly recognized, you may receive:
 
 ## Sponsorship tiers
 
-The verification form uses these ranges and progressively stronger recognition benefits:
+The verification form offers these fixed packages with progressively stronger recognition benefits:
 
 | Tier | Amount | Recognition benefit |
 | --- | ---: | --- |
-| Standard support | CNY 1-99 | Thank-you only |
-| Bronze sponsorship | CNY 100-499 | GitHub avatar and profile link available |
-| Silver sponsorship | CNY 500-1,999 | Includes Bronze benefits plus sponsor-list placement |
-| Gold sponsorship | CNY 2,000-4,999 | Includes Silver benefits plus homepage or featured placement and public acknowledgment |
-| Special sponsorship | CNY 5,000 or more | Includes Gold benefits plus custom recognition and dedicated collaboration discussion |
-| Prefer not to disclose amount | Amount not disclosed | Treated as standard support |
+| Standard support | CNY 20 | Thank-you only |
+| Bronze sponsorship | CNY 200 | GitHub avatar and profile link available |
+| Silver sponsorship | CNY 1,000 | Includes Bronze benefits plus sponsor-list placement |
+| Gold sponsorship | CNY 4,000 | Includes Silver benefits plus homepage or featured placement and public acknowledgment |
+| Special sponsorship | CNY 10,000 | Includes Gold benefits plus custom recognition and dedicated collaboration discussion |
+| Custom amount | Enter any amount | Totals under CNY 20 receive thank-you only; otherwise matches the highest tier not exceeding cumulative payments |
 
-The sponsorship tier determines the recognition benefit you may request. Public recognition still requires an explicit choice, and declining recognition does not affect payment verification. Homepage placement, featured placement, public acknowledgment, and Special sponsorship collaboration require confirmation of the exact scope.
+The sponsorship tier determines the recognition benefit you may request. The form defaults to using the selected tier's benefits; select no public recognition to opt out. Homepage placement, featured placement, public acknowledgment, and Special sponsorship collaboration require confirmation of the exact scope.
 
 GitHub Issue Forms cannot dynamically hide or rewrite fields based on a dropdown selection. The tier options therefore state their benefits directly, and the selected tier is used during verification.
 
@@ -41,11 +41,11 @@ GitHub Issue Forms cannot dynamically hide or rewrite fields based on a dropdown
 
 Please open an [English sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship-en.yml) so I can verify the payment and record your recognition preferences. You can choose the Chinese sponsorship verification form instead when creating a new issue.
 
-Every field except sponsorship tier is optional. If payment time is omitted, the issue creation time will be used as a reference. If recognition preference is omitted, no public recognition will be added. Helpful details include:
+Every field except sponsorship tier is optional. If payment time is omitted, the issue creation time will be used as a reference. Recognition defaults to the selected tier's benefits. Helpful details include:
 
 - Your GitHub username (optional; the issue author is usually identifiable);
 - Payment method;
-- Sponsorship tier (required; exact amount is optional);
+- Sponsorship tier (required; enter an exact amount when selecting Custom amount);
 - Approximate payment date and time;
 - The name, avatar, or link you want displayed;
 - Whether you prefer to remain anonymous.
@@ -58,7 +58,7 @@ Issues are public. Do not post a complete transaction ID, payment receipt, phone
 
 ### Can I sponsor anonymously?
 
-Yes. Leave the recognition preference blank or select no public recognition. You may also skip the issue entirely, although the payment may then be difficult to verify.
+Yes. Select no public recognition in the recognition preference. You may also skip the issue entirely, although the payment may then be difficult to verify.
 
 ### Can I display only my name, without an avatar or link?
 
