@@ -1,0 +1,88 @@
+name: Business advertising application (English)
+description: Apply for a documentation sidebar ad on weapp-tailwindcss or weapp-vite
+title: "[Business ad] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit the assets and preferred schedule first. Pay only after the maintainer approves the materials and confirms an available slot. Do not prepay advertising fees through the individual sponsorship QR codes.
+
+        Ads appear only in the right sidebar of desktop documentation pages. Each site carries at most one paid campaign at a time. Clicks, conversions, homepage impressions, and mobile impressions are not guaranteed.
+
+  - type: dropdown
+    id: advertising_package
+    attributes:
+      label: Advertising package
+      options:
+        - "Single-site monthly ad: CNY 2,000, exclusive weapp-tailwindcss placement for 30 calendar days"
+        - "Single-site monthly ad: CNY 2,000, exclusive weapp-vite placement for 30 calendar days"
+        - "Two-site monthly ad: CNY 3,000, exclusive placement on both sites for 30 calendar days"
+        - "Two-site quarterly partner: CNY 8,000, exclusive placement on both sites for 90 calendar days"
+        - "Custom partnership: discuss scheduling, presentation, or project collaboration"
+    validations:
+      required: true
+
+  - type: input
+    id: brand_name
+    attributes:
+      label: Brand or company name
+      placeholder: "Example Cloud"
+    validations:
+      required: true
+
+  - type: input
+    id: target_url
+    attributes:
+      label: Target URL
+      description: Provide the final landing page using https://.
+      placeholder: "https://example.com/product"
+    validations:
+      required: true
+
+  - type: textarea
+    id: advertising_copy
+    attributes:
+      label: Advertising copy
+      description: Chinese copy should preferably stay within 30 Chinese characters, and English copy within 60 characters.
+      placeholder: "A short product message for developers"
+    validations:
+      required: true
+
+  - type: input
+    id: alternative_text
+    attributes:
+      label: Logo alternative text
+      description: Briefly identify the brand for unavailable images and assistive technology.
+      placeholder: "Example Cloud logo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logo_asset
+    attributes:
+      label: Logo asset
+      description: Attach an SVG, transparent PNG, or WebP file no larger than 1 MB. A publicly accessible asset URL is also accepted.
+    validations:
+      required: true
+
+  - type: input
+    id: preferred_start_date
+    attributes:
+      label: Preferred launch date (optional)
+      description: The final date depends on asset approval and schedule confirmation.
+      placeholder: "YYYY-MM-DD"
+
+  - type: checkboxes
+    id: advertising_policy
+    attributes:
+      label: Advertising policy confirmation
+      options:
+        - label: I confirm that the content is legal and relevant to developers, cloud services, engineering tools, or open source, with no gambling, illicit industries, infringement, misleading claims, or competitor impersonation. I understand that the period starts after approval and launch, only cumulative outages over 24 hours extend it, and the maintainer retains final approval.
+          required: true
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes (optional)
