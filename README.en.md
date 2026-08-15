@@ -20,14 +20,29 @@ If you choose to be publicly recognized, you may receive:
 | :---: | :---: |
 | <img src="./assets/wechat-pay.jpg" width="300" alt="WeChat Pay sponsorship QR code" /> | <img src="./assets/ali-pay.jpg" width="300" alt="Alipay sponsorship QR code" /> |
 
+## Sponsorship tiers
+
+The verification form uses these ranges to make reconciliation easier:
+
+| Tier | Amount |
+| --- | ---: |
+| Starter support | CNY 1-49 |
+| Community support | CNY 50-199 |
+| Project support | CNY 200-999 |
+| Long-term partnership | CNY 1,000 or more |
+| Prefer not to say | Amount not disclosed |
+
+These tiers are for payment reconciliation and do not automatically grant different benefits. Avatar, name, and link display are always opt-in; consulting scope must be agreed separately.
+
 ## After sponsoring
 
 Please open a [sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=sponsorship.yml) so I can verify the payment and record your recognition preferences.
 
 Helpful details include:
 
-- Your GitHub username;
+- Your GitHub username (optional; the issue author is usually identifiable);
 - Payment method;
+- Sponsorship tier (exact amount is optional);
 - Approximate payment date and time;
 - The name, avatar, or link you want displayed;
 - Whether you prefer to remain anonymous.

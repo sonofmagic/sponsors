@@ -12,8 +12,20 @@ body:
   - type: input
     id: github_username
     attributes:
-      label: GitHub username / GitHub 用户名
+      label: GitHub username (optional) / GitHub 用户名（可选）
       placeholder: "@username"
+
+  - type: dropdown
+    id: sponsorship_tier
+    attributes:
+      label: Sponsorship tier / 赞助档位
+      description: Select the range that matches your sponsorship. The tier is for reconciliation and does not automatically change recognition rights. / 请选择对应的赞助金额区间。档位仅用于核对，不自动改变展示权益。
+      options:
+        - CNY 1-49 / 人民币 1-49 元
+        - CNY 50-199 / 人民币 50-199 元
+        - CNY 200-999 / 人民币 200-999 元
+        - CNY 1,000 or more / 人民币 1,000 元及以上
+        - Prefer not to say / 不便透露
     validations:
       required: true
 
@@ -39,7 +51,7 @@ body:
   - type: input
     id: amount
     attributes:
-      label: Amount (optional) / 金额（可选）
+      label: Exact amount (optional) / 具体金额（可选）
       placeholder: "CNY 100"
 
   - type: dropdown
@@ -58,7 +70,7 @@ body:
     id: display_name
     attributes:
       label: Display name (optional) / 展示名称（可选）
-      description: Leave blank to use your GitHub username / 留空则使用 GitHub 用户名
+      description: Leave blank to use your GitHub username when provided / 如已填写 GitHub 用户名，留空即可使用
 
   - type: input
     id: profile_url
