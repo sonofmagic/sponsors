@@ -21,11 +21,11 @@ body:
       label: Sponsorship tier (required)
       description: Select the amount and recognition level that matches your sponsorship. Public recognition still requires an explicit choice; select no public recognition if preferred.
       options:
-        - Standard support: CNY 1-49, thank-you only
-        - Bronze sponsorship: CNY 50-199, name display available
-        - Silver sponsorship: CNY 200-999, avatar, name, and profile link available
-        - Gold sponsorship: CNY 1,000-4,999, featured display and consulting discussion available
-        - Special sponsorship: CNY 5,000 or more, custom recognition and dedicated collaboration can be discussed
+        - Standard support: CNY 1-99, thank-you only
+        - Bronze sponsorship: CNY 100-499, GitHub avatar and profile link available
+        - Silver sponsorship: CNY 500-1,999, includes Bronze benefits plus sponsor-list placement
+        - Gold sponsorship: CNY 2,000-4,999, includes Silver benefits plus homepage or featured placement and public acknowledgment
+        - Special sponsorship: CNY 5,000 or more, includes Gold benefits plus custom recognition and dedicated collaboration discussion
         - Prefer not to disclose amount: recognition defaults to standard support
     validations:
       required: true
