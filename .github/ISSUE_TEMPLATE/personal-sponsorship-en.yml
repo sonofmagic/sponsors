@@ -7,18 +7,18 @@ body:
       value: |
         Thank you for your support! Issues are public. Do not include a complete transaction ID, payment receipt, phone number, email address, or other sensitive information.
 
-        Only the sponsorship tier is required. The issue author is used as the GitHub identity by default. The issue creation time is used when payment time is omitted. Recognition is enabled by default; explicitly opt out if you prefer privacy.
+        The Issue author is the GitHub identity. Amounts and tiers entered here are claims awaiting verification and do not grant benefits directly. The maintainer records confirmed receipt in a private ledger, and the final tier is calculated from cumulative entitlement for the same immutable GitHub ID. Do not enter a complete transaction ID or upload a payment receipt.
 
   - type: dropdown
-    id: sponsorship_tier
+    id: contribution_claim
     attributes:
-      label: Sponsorship tier
-      description: Custom contributions use cumulative verified payments from the same GitHub account to determine the highest individual tier.
+      label: Contribution claim awaiting verification
+      description: This only helps the maintainer reconcile the payment and does not determine the final tier.
       options:
-        - "Standard support: CNY 20, permanent public thank-you record"
-        - "Bronze sponsorship: CNY 200, permanent GitHub avatar, username, and profile link"
-        - "Silver sponsorship: CNY 1,000, permanent Bronze benefits plus featured sponsor-list placement"
-        - "Custom amount: enter any amount and receive the highest individual tier covered by cumulative verified payments"
+        - "This contribution is CNY 20"
+        - "This contribution is CNY 200"
+        - "This contribution is CNY 1,000"
+        - "Another amount, entered below"
     validations:
       required: true
 
@@ -26,7 +26,7 @@ body:
     id: amount
     attributes:
       label: Exact amount (optional)
-      description: Enter an amount for Custom amount; fixed tiers can leave this blank.
+      description: Enter an amount when selecting Another amount. Do not enter a transaction ID.
       placeholder: "CNY 300"
 
   - type: dropdown
@@ -48,7 +48,7 @@ body:
     id: recognition
     attributes:
       label: Recognition preference (optional)
-      description: Permanent recognition for the selected tier is public by default. Select no public recognition to opt out.
+      description: This controls public visibility only and does not change cumulative entitlement or the final tier.
       options:
         - Use the public recognition benefits for the selected tier
         - No public recognition

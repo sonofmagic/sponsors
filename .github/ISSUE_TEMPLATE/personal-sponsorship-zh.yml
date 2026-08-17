@@ -7,18 +7,18 @@ body:
       value: |
         感谢你的支持！Issue 是公开的，请勿填写完整交易单号、付款截图、手机号、邮箱或其他敏感信息。
 
-        只有赞助档位是必填项。GitHub 身份默认使用 Issue 作者；支付时间留空时默认参考 Issue 创建时间；展示默认开启，如不希望公开请主动选择不公开。
+        GitHub 身份使用 Issue 作者。这里填写的金额和档次只是待核对声明，不会直接授予权益；最终档次由维护者确认到账后写入私有账本，并按同一 GitHub ID 的累计权益自动计算。请勿填写完整交易单号或上传付款截图。
 
   - type: dropdown
-    id: sponsorship_tier
+    id: contribution_claim
     attributes:
-      label: 赞助档位
-      description: 自定义金额按同一 GitHub 账号可核对的累计实付金额匹配最高个人档位。
+      label: 本次赞助声明（待核对）
+      description: 仅用于协助维护者核对，本项不会直接决定最终档次。
       options:
-        - 普通支持：人民币 20 元，永久保留公开致谢记录
-        - 铜牌赞助：人民币 200 元，永久展示 GitHub 头像、用户名和主页链接
-        - 银牌赞助：人民币 1,000 元，永久享有铜牌权益并进入突出显示的赞助者名单
-        - 自定义金额：自行填写，按累计实付金额匹配最高个人档位
+        - 本次赞助人民币 20 元
+        - 本次赞助人民币 200 元
+        - 本次赞助人民币 1,000 元
+        - 其他金额，请在下一项填写
     validations:
       required: true
 
@@ -26,7 +26,7 @@ body:
     id: amount
     attributes:
       label: 具体金额（可选）
-      description: 选择自定义金额时请填写；固定档位可留空。
+      description: 选择其他金额时请填写；固定金额可留空。不要填写交易单号。
       placeholder: "人民币 300 元"
 
   - type: dropdown
@@ -48,7 +48,7 @@ body:
     id: recognition
     attributes:
       label: 展示偏好（可选）
-      description: 默认公开并使用所选档位的永久权益；如不希望公开，请选择不公开展示。
+      description: 只决定公开偏好，不改变累计金额或最终档次。
       options:
         - 公开展示所选档位的权益
         - 不公开展示

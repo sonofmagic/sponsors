@@ -17,7 +17,9 @@ There are two independent ways to participate: permanent recognition for individ
 | Silver sponsorship | CNY 1,000 | Bronze benefits plus placement in the featured sponsor list |
 | Custom amount | Enter any amount | The highest individual tier covered by cumulative verified payments |
 
-Individual recognition is public by default and does not expire. You can explicitly opt out in the verification form. Custom contributions are matched against cumulative verified payments from the same GitHub account: CNY 20, 200, and 1,000 unlock Standard, Bronze, and Silver respectively. Totals below CNY 20 are still appreciated but do not enter a public tier.
+Individual recognition is public by default and does not expire. You can explicitly opt out in the verification form. After the maintainer verifies receipt, an entry is appended to a private sponsor ledger and the tier is calculated from cumulative entitlement for the same immutable GitHub ID. CNY 20, 200, and 1,000 unlock Standard, Bronze, and Silver respectively. Totals below CNY 20 are still appreciated but do not enter a public tier.
+
+The amount or tier selected in an Issue is only a claim awaiting verification and never grants access by itself. GitHub Labels are a public projection of the private ledger. Editing an Issue body or Label cannot change the total, public list, or poster eligibility.
 
 ### Payment methods
 
@@ -25,7 +27,7 @@ Individual recognition is public by default and does not expire. You can explici
 | :---: | :---: |
 | <img src="./assets/wechat-pay.jpg" width="300" alt="WeChat Pay sponsorship QR code" /> | <img src="./assets/ali-pay.jpg" width="300" alt="Alipay sponsorship QR code" /> |
 
-After payment, open an [English individual sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=personal-sponsorship-en.yml). Only the sponsorship tier is required. The issue author is used as the GitHub identity by default, and the issue creation time is used when payment time is omitted.
+After payment, open an [English individual sponsorship verification issue](https://github.com/sonofmagic/sponsors/issues/new?template=personal-sponsorship-en.yml). The Issue author binds the GitHub identity, while the form only helps the maintainer reconcile the payment offline. Do not enter a complete transaction ID or upload a payment receipt. The maintainer will use a private channel if more evidence is needed.
 
 ## Business sponsorship and advertising
 
@@ -62,7 +64,7 @@ Reliable public traffic data for the documentation sites is not yet available, s
 
 ## Privacy and verification
 
-GitHub issues are public. Do not post a complete transaction ID, payment receipt, phone number, email address, or other sensitive information. The maintainer will arrange a private follow-up if an individual payment needs further verification. Business advertising must be paid only after the schedule and assets have been approved.
+GitHub Issues are public. Do not post a complete transaction ID, payment receipt, phone number, email address, or other sensitive information. Actual amounts, transaction-reference fingerprints, reversals, and cumulative details stay in a maintainer-writable private ledger. Each signed-in GitHub user can only view their own account summary. Business advertising must be paid only after the schedule and assets have been approved.
 
 ## FAQ
 

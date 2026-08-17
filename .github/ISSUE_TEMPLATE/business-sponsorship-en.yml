@@ -9,7 +9,7 @@ body:
 
         Ads appear only in the right sidebar of desktop documentation pages. Each site carries at most one paid campaign at a time. Clicks, conversions, homepage impressions, and mobile impressions are not guaranteed.
 
-        After payment and maintainer confirmation, the brand receives permanent Gold partner recognition on the main site. Gold recognition remains after the ad period ends.
+        After payment and maintainer confirmation, the brand is snapshotted into the private sponsor ledger and receives permanent Gold partner recognition on the main site. Later Issue edits cannot change the confirmed brand, and Gold recognition remains after the ad period ends.
 
   - type: dropdown
     id: advertising_package
