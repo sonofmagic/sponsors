@@ -38,7 +38,7 @@ The following introductory prices apply during the initial trial. Ads appear onl
 | Two-site quarterly partner | CNY 8,000 | Exclusive desktop documentation sidebar placement on both sites for 90 calendar days |
 | Custom partnership | Contact us | A custom schedule, placement, or project collaboration |
 
-Every business package includes permanent Silver recognition. After the ad period ends, the company name, logo, and target link remain in the featured sponsor list.
+Every business package includes permanent Gold recognition. After the ad period ends, the company name, logo, and target link remain in the Gold partner list.
 
 ### Application and publishing process
 
@@ -80,7 +80,7 @@ Advertising requires content review, usable assets, and a conflict-free schedule
 
 ### What remains after an ad expires?
 
-The sidebar ad is removed on schedule. The company name, logo, and link remain permanently in the sponsor list under Silver recognition.
+The sidebar ad is removed on schedule. The company name, logo, and link remain permanently in the sponsor list under Gold partner recognition.
 
 ## Thank you
 
